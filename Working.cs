@@ -6,5 +6,8 @@ class Working
     public void RobotTrack(string[] directions)
     {
         
+
+        
+        Console.WriteLine($"{x}, {y}");
     }
 }
