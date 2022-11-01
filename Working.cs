@@ -33,11 +33,11 @@ class Working
                 break;
 
                 default:
-                System.Console.WriteLine($"Instruction #{i + 1} invalid.");
+                System.Console.WriteLine($"Instruction #{i + 1} invalid.\n");
                 break;
             }            
         }
-               
-        Console.WriteLine($"{x}, {y}");
+
+        Console.WriteLine($"Robot position: {x}, {y}");
     }
 }
